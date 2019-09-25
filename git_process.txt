@@ -1,0 +1,24 @@
+#install & initiation
+yum install git
+git config --global user.email "xxx@xxx.com"
+git config --global user.name "xxx"
+
+#if you have not add a SSH PUBLIC KEY to github
+#if this has already been existed
+cat /root/.ssh/id_rsa.pub
+#or
+ssh-keygen -t rsa -C xxx@xxx.com
+cat /root/.ssh/id_rsa.pub
+#then insert this to github
+
+#upload file
+mkdir github
+cd github
+git clone https://github.com/wud666/selfPractice.git
+
+#copy the files you want to upload to this dir
+#and then go to your local repository dir
+cd selfPractice
+git add *
+git commit -m "added files"
+git push
