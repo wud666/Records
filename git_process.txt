@@ -22,3 +22,6 @@ cd selfPractice
 git add *
 git commit -m "added files"
 git push
+
+#other commands
+vim /root/.gitconfig
