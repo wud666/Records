@@ -1,2 +1,2 @@
 # selfPractice
-try upload
+Record & Share knowledge used...
